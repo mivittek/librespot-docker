@@ -6,7 +6,7 @@ on:
       - "v*"
 
 env:
-  GHCR_IMAGE_NAME: andrewn/librespot-docker
+  GHCR_IMAGE_NAME: mivittek/librespot-docker
   REGISTRY: ghcr.io
 
 jobs:
