@@ -4,7 +4,7 @@ ARG BALENA_ARCH=%%BALENA_ARCH%%
 FROM balenalib/$BALENA_ARCH-alpine:edge as librespot-builder
 WORKDIR /app
 
-ARG LIBRESPOT_VERSION=0.4.2
+ARG LIBRESPOT_VERSION=0.5.0
 
 RUN install_packages alsa-lib-dev pulseaudio-dev cargo curl
 
